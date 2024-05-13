@@ -1,0 +1,31 @@
+
+        # $host = 'sql863.main-hosting.eu';
+        # $db_name = 'u484426513_databasereact';
+        # $username = 'u484426513_databasereact';
+        # $password = 'i:![VW:3S#';        
+
+       #[0], [1],      [2]      ,[3]    
+#SELECT id, nombre, descripcion, tiempo, usuario FROM curso WHERE 1
+#SELECT id, cedula, correoelectronico, telefono, telefonocelular, fechanacimiento, sexo, direccion, nombre, apellidopaterno, apellidomaterno, nacionalidad, idCarreras, usuario FROM estudiante WHERE 1         
+#SELECT id, nombre FROM grupo WHERE 1
+#SELECT id, cedula, correoelectronico, telefono, telefonocelular, fechanacimiento, sexo, direccion, nombre, apellidopaterno, apellidomaterno, nacionalidad, usuario, idcarreras FROM profesor WHERE 1
+#SELECT id, name, email, password FROM user WHERE 1
+
+#UPDATE curso SET nombre='[value-2]',descripcion='[value-3]',tiempo='[value-4]',usuario='[value-5]' WHERE id='[value-1]' 
+#UPDATE estudiante SET cedula='[value-2]',correoelectronico='[value-3]',telefono='[value-4]',telefonocelular='[value-5]',fechanacimiento='[value-6]',sexo='[value-7]',direccion='[value-8]',nombre='[value-9]',apellidopaterno='[value-10]',apellidomaterno='[value-11]',nacionalidad='[value-12]',idCarreras='[value-13]',usuario='[value-14]' WHERE  id='[value-1]'
+#UPDATE grupo SET nombre='[value-2]' WHERE id='[value-1]'
+#UPDATE profesor SET cedula='[value-2]',correoelectronico='[value-3]',telefono='[value-4]',telefonocelular='[value-5]',fechanacimiento='[value-6]',sexo='[value-7]',direccion='[value-8]',nombre='[value-9]',apellidopaterno='[value-10]',apellidomaterno='[value-11]',nacionalidad='[value-12]',usuario='[value-13]',idcarreras='[value-14]' WHERE id='[value-1]'
+#UPDATE user SET name='[value-2]',email='[value-3]',password='[value-4]' WHERE  id='[value-1]'
+
+
+# INSERT INTO user(id, name, email, password) VALUES ('[value-1]','[value-2]','[value-3]','[value-4]')
+# INSERT INTO profesor(id, cedula, correoelectronico, telefono, telefonocelular, fechanacimiento, sexo, direccion, nombre, apellidopaterno, apellidomaterno, nacionalidad, usuario, idcarreras) VALUES ('[value-1]','[value-2]','[value-3]','[value-4]','[value-5]','[value-6]','[value-7]','[value-8]','[value-9]','[value-10]','[value-11]','[value-12]','[value-13]','[value-14]')
+# INSERT INTO grupo(id, nombre) VALUES ('[value-1]','[value-2]')
+# INSERT INTO estudiante(id, cedula, correoelectronico, telefono, telefonocelular, fechanacimiento, sexo, direccion, nombre, apellidopaterno, apellidomaterno, nacionalidad, idCarreras, usuario) VALUES ('[value-1]','[value-2]','[value-3]','[value-4]','[value-5]','[value-6]','[value-7]','[value-8]','[value-9]','[value-10]','[value-11]','[value-12]','[value-13]','[value-14]')
+# INSERT INTO curso(id, nombre, descripcion, tiempo, usuario) VALUES ('[value-1]','[value-2]','[value-3]','[value-4]','[value-5]')
+
+# DELETE FROM `grupo` WHERE  id =
+# DELETE FROM `estudiante` WHERE id =
+# DELETE FROM `curso` WHERE id =
+# DELETE FROM `profesor` WHERE id =
+# DELETE FROM `user` WHERE id =
